@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "ToDoList",
+  "version": "1.1",
+  "description": "ToDo list, Icon made by Smashicons and Kiranshastry from www.flaticon.com ",
+  "author": "Andy Yu",
+  "icons": {
+    "16": "16to-do.png",
+    "32": "32to-do.png",
+    "128": "128to-do.png"
+  },
+  "browser_action": {
+    "default_icon": {                   
+      "16": "16to-do.png",
+      "32": "32to-do.png",
+      "128": "128to-do.png"
+    },
+    "default_title": "ToDoList",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+      "windows": "Ctrl+Shift+Y",
+      "mac": "Command+Shift+Y"
+      }
+    }
+  }
+}

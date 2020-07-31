@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+}
+.btn-img {
+	background-image: url(delete.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+	margin-right: 20px;
+	border: none;
+}
+.list-group-item {
+	list-style-type: none;
+	overflow: auto;
+	white-space: nowrap;
+	border-bottom: 1px solid #C0C0C0;
+	padding: 15px;
+	margin: 0px 30px;
+}
+.list-group {
+	list-style-type: none;
+}
+.container {
+	overflow: auto;
+	width: 350px;
+	height: 450px;
+}
+#item {
+	width: 300px;
+	margin: 10px 0px 10px 28px;
+	border-radius: 15px;
+}
